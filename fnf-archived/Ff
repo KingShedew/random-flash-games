@@ -126,7 +126,7 @@ window.addEventListener("DOMContentLoaded", () => {
   container.appendChild(player);
 
   player.load({
-    url: "https://archive.org/download/friday-night-flash/Friday%20night%20archived.swf"
+    url: "https://rawcdn.githack.com/ecogg/random-flash-games/d4d0d651af8d1178f5d2edc3827ef055e6cad11b/fnf-archived/yourfile.swf"
   }).catch(err => {
     console.error(err);
     container.textContent = "Failed to load SWF. Check browser console.";
